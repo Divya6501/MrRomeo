@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  
+<h1 id="welcome">Welcome to Pet Shopping Zone</h1>
+<h2 id="intro">Buy the Good Heart here</h2>
+
+<input type="button" onclick="window.open('index.html','_self')" value="HOME"/>
+
+
+<p><a href="Gallery.html">Gallery</a></p>
+  
+<label for="dogs">Choose a Dog Breed :   </label>
+
+<select name="dog" id="dogs">
+  <option value="audi">Any</option>
+  <option value="volvo">Labrator</option>
+  <option value="saab">German Shepord</option>
+  <option value="mercedes">Doberman</option>
+  <option value="audi">Boxer</option>
+</select>
+
+  <p>Select type of the Dog :</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Adult</label>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Puppy</label><br>
+  
+<br><br>
+<label for="fname">Color :  </label>
+  <input type="text" id="fname" name="fname" value=""><br>
+<br><br>
+
+<label for="Address">Address :  </label>
+  <input type="text" id="Address" name="fname" value=""><br>
+<br><br>
+
+<button onclick="myFunction()">Place Order</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "The order has placed, You will received the pet within an hour";
+}
+</script>
+
+</body>
+</html>

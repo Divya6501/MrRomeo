@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  
+<h1 id="welcome">Welcome to Pet Shopping Zone</h1>
+<h2 id="intro">Buy the Good Heart here</h2>
+
+<input type="button" onclick="window.open('index.html','_self')" value="HOME"/><br><br>
+
+<label for="Address">Name :  </label>
+<input type="text" id="Address" name="fname" value=""><br>
+<br><br>
+
+<label for="Address">Address :  </label>
+<input type="text" id="Address" name="fname" value=""><br>
+<br><br>
+
+<button onclick="myFunction()">Place Order</button>
+
+<input type="button" onclick="window.open('index.html','_self')" value="HOME"/>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "The order has placed, You will received the pet within an hour";
+}
+</script>
+
+</body>
+</html>

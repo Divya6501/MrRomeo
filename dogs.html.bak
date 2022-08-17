@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>
+Logged Out
+</title>
+</head>
+<body>
+
+ <a target="_self" href="gallery.html">Gallery</a> <br><br>
+ 
+ <a target="_self" href="shopping.html">Shopping</a>  <br><br> <br><br>
+
+
+<input type="button" onclick="window.open('index.html','_self')" value="HOME"/>
+
+</body>
+</html>

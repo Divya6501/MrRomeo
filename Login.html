@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>
+Login page
+</title>
+</head>
+<body>
+<h1  id="welcomePage" style="font-family:Comic Sans Ms;text-align="center";font-size:20pt;
+color:#00FF00;>
+Welcome to Mr. Romeo Login Page
+</h1>
+<form name="login">
+Username :   <input type="text" id="username" name="userid"/> <br><br>
+Password :   <input type="password"  id="password" name="pswrd"/><br><br>
+<input  id="login" type="button" onclick="check(this.form)" value="Login"/>
+<input type="button" onclick="window.open('index.html','_self')" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "divya" && form.pswrd.value == "divya")
+  {
+    window.open('logged.html','_self')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
